@@ -1,0 +1,16 @@
+#! /usr/bin/env python
+
+def myExample():
+    print
+    print "------------------------------------"
+    print "         PYTHON EXAMPLE             "
+    print "------------------------------------"
+    print
+
+    B = {'fav fruit':'mango', 'fav veggie':'brussel sprout', 'DOB':'120492'}
+    
+    return B
+
+if __name__=="__main__":
+
+    B = myExample()

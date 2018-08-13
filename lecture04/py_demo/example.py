@@ -13,9 +13,10 @@ def myExample():
     for a in A:
         print "A[", a, "] = ", A[a]
 
+    print
+
     
 
 if __name__=="__main__":
 
     myExample()
-

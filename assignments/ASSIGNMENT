@@ -1,0 +1,40 @@
+
+********************************************************************
+                        ASSIGNMENT
+********************************************************************
+
+(1) Add the method of manufactured solutions to one of the 2-D codes
+developed in class, i.e., either the finite difference or finite
+element code.
+
+(2) Add at least two solutions to be used as manufactured solutions,
+one of them captured exactly by the discrete method and one of them
+not exactly captured by the discrete method.
+
+(3) Perform a convergence study on the one not captured.  The
+convergence study will consist of the following:
+
+(3.1) An error norm, such as the sum of the squares of the differences
+between the analytical solution and the numerical solution at each
+point in the mesh, normalized by the square of the number of points in
+the mesh.
+
+(3.2) Plotting that error norm as a function of the number of points
+in the mesh.
+
+(4) Write a small report, 1-2 pages in length, that describe the
+analytical solutions and shows a plot of convergence as a function of
+grid points used.
+
+(5) Upload results into your repository.  Separate out the report to
+be in a different location than your code.
+
+(6) Guide me to the correct locations for your code and the report
+through a clearly written and easy to read README file, placed at the
+top level of your repository.
+
+(7) Note: Part of your grade will include how easy it is for me to
+find the report and source code, how well written your README file is,
+and how well documented your code is.
+
+(8) Questions/Concerns: Don't hesitate to contact me.

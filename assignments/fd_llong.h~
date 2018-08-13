@@ -1,0 +1,34 @@
+using namespace std;
+
+#include <iostream>
+#include <iomanip>
+#include <fstream>
+#include <cstdlib>
+#include <sstream>
+#include <string>
+#include <vector>
+#include <fstream>
+#include "stdio.h"
+#include "math.h"
+using std::string;
+using std::vector;
+using std::stingstream;
+using std::cout;
+using std::endl;
+
+// Short cuts unique to this code:
+#define _D_ double
+#define _I_ int
+#define VD  vector<double>
+#define VI  vector<int>
+#define VS  vector<string>
+#define VDD vector<vector<double> >
+#define VII vector<vector<int> >
+#define VTD vector<TestData>
+
+// Loops used in creating the mesh:
+#define eLOOP for ( int e = 1 ; e <= nelem ; ++e )
+#define iLOOP for ( int i = 1 ; i <= npx   ; ++i )
+#define jLOOP for ( int j = 1 ; j <= npy   ; ++j )
+
+// General loops used in the code:

@@ -1,0 +1,4 @@
+
+fd: fd_llong.cpp fd_llong.h
+    g++ fd.cpp -o fd -lstdc++
+

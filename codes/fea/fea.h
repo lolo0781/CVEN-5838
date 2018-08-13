@@ -25,7 +25,6 @@ using std :: endl;
 #define VS  vector<string>         
 #define VDD vector<vector<double> >
 #define VII vector<vector<int> >   
-#define VTD vector<TestData >      
 
 // Mesh
 
@@ -51,5 +50,8 @@ using std :: endl;
 #define colLOOP   for ( int col = 1 ; col <= Alen[row] ; ++col )
 #define colLOOPp1 for ( int col = 2 ; col <= Alen[row] ; ++col )
 #define colLOOPbw for ( int col = 1 ; col <= bandwidth ; ++col )
+
+
+
 
 
